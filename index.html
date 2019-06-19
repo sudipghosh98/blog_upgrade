@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <span>  ScriBBer     
+        <button id='signin' class="sign" data-toggle="modal" data-target="#myModal">Sign In</button> <button id ="signup" class="sign" data-toggle="modal" data-target="#myModal1">Sign Up</button></span>
+    <br/>
+        Explore. Imagine. Create
+        </div>
+          
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+        	
+        	<button id='allpost' onclick="nextpage()" class="po">All Post</button> <button id ="wrpost" class="po" data-toggle="modal" data-target="#myModal2">Write Post</button>
+
+        </div>
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Sign In modal here -->
+    	 <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" id="close">&times;</button>
+          <h4 class="modal-title">Welcome Back!</h4>
+        </div>
+        <div class="modal-body">
+         <form role="form">
+            <div class="form-group">
+              <label for="usrname"> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Username">
+            </div>
+            <div class="form-group">
+              <label for="psw"> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-default btn-success btn-block">Sign Up</button>
+          </form>
+              <p>Not a member? <a onclick=sign() >Sign Up</a></p>
+        </div>
+        
+       
+      </div>
+      </div>
+  </div>
+
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Sign Up modal here -->
+    	 <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Getting Started</h4>
+        </div>
+        <div class="modal-body">
+         <form role="form">
+            <div class="form-group">
+              <label for="usrname"> Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter Full Name" required>
+            </div>
+            <div class="form-group">
+              <label for="usrname"> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Username" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"> Password</label>
+              <input type="password" class="form-control" id="psw" placeholder="Enter Password" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"> Confirm Password</label>
+              <input type="password" class="form-control" id="cpsw" placeholder="Confirm Password" required>
+            </div>
+           
+            <button type="submit" class="btn btn-default btn-success btn-block">Sign Up</button>
+          </form>
+              
+        </div>
+     
+      </div>
+          </div>
+</div>
+
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Create Post modal here -->
+            	 <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">New Post</h4>
+        </div>
+        <div class="modal-body">
+         <form role="form">
+            <div class="form-group">
+              <label for="usrname"> UserName</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter UserName" required>
+            </div>
+            <div class="form-group">
+              <label for="usrname"> Title</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Title" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"> Content</label>
+              <br>
+              <textarea name="area" id="content" cols="44" rows="10"></textarea>
+            </div>
+            
+           
+            <button type="submit" class="btn btn-default btn-success btn-block">Create Post</button>
+          </form>
+              
+        </div>
+     
+      </div>
+          </div>
+</div>
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>
