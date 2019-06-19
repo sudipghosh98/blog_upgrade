@@ -1,0 +1,34 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+
+.postButtons{
+    margin-top: 360px;
+   text-align: center;
+}
+.po{
+    height: 50px;
+    width: 100px;
+    margin: 10px 5px;
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+        
+}
+
+
+
+
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+                                 

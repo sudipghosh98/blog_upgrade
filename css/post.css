@@ -1,0 +1,60 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.blogText {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.blogAuthor {
+
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    
+}
+.blogAuthor p{
+    display: inline-block;
+    
+}
+.blogAuthor button{
+      background-color: red;
+    float: right;
+    margin-top: 52px;
+    cursor: pointer;
+}
+.blogContent{
+     margin: 0px 50px;
+}
+
+.blogTitleNew{
+    text-align: center;
+}
+button{
+    background-color: red;
+    cursor: pointer;
+}
+#comment1{
+    background-color: darkgray;
+    height: auto;
+    width: 500px;
+   
+}
+#comment1 p{
+    width: 95%;
+ background-color: white;
+}
+.btpo{
+     height: 50px;
+    width: 100px;
+    margin: 10px 5px;
+    background-color: red;
+    color: white;
+}
+#li{
+    margin-left: 0px;
+    display: block;
+}
+
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
