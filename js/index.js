@@ -4,6 +4,3 @@
         document.getElementById('signup').click();
         console.log("yeah");
     }   
-function nextpage(){
-        window.location.href="html/bloglist.html";
-}
